@@ -245,3 +245,65 @@ header h2 span{
     margin: auto;
     color: #87d37c;
 }
+/* Our pricing section */
+#ourpricing{
+    background-color: #fdfafa;
+    /* padding-top: 80px; */
+    padding-bottom: 130px;
+}
+#ourpricing h4{
+    color: #000;
+    margin-bottom: 50px;
+}
+#ourpricing .row{
+    margin-top: 105px;
+
+}
+#ourpricing .col-3 div{
+    background-color: #39393a;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+#ourpricing .col-3 div h5{
+    font-size: 30px;
+    height: 130px;
+    width: 130px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+#ourpricing .col-3 div sup{
+    font-size: 14px;
+}
+#ourpricing .col-3 div sub{
+    font-size: 18px;
+}
+#ourpricing .col-3 div span{
+    font-size: 20px;
+}
+#ourpricing .col-3 div p{
+    font-size: 14px;
+    color: #fffefe;
+    border-bottom: 1px solid #fffefe;
+    width: 70%;
+    margin: 25px auto;
+}
+#ourpricing .col-3 div button{
+    padding: 10px 20px;
+    background-color: #fefdfc;
+
+}
+#ourpricing .col-3 div:hover{
+    background-color: #87d37c;
+}
+#ourpricing .col-3 div:hover h5{
+    color: #87d37c;
+    background-color: #fff;
+}
+#ourpricing .col-3 div:hover button{
+    color: #87d37c;
+    border-color: #87d37c;
+}
