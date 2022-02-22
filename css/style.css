@@ -1,3 +1,4 @@
+@import url(all.min.css);
 *{
     margin: 0;
     padding: 0;
@@ -25,7 +26,7 @@ p{
 }
 /* Header style */
 header{
-    background-image:url("img/banner.jpg") ;
+    background-image:url("../img/banner.jpg") ;
     color: white;
     background-repeat: no-repeat;
    background-size: 100% 100% ; 
@@ -86,4 +87,59 @@ header h3{
 header h2 span{
     color: #87d37c;
 
+}
+/* About US style */
+#aboutus{
+    padding-top: 115px;
+    padding-bottom: 115px;
+
+}
+#aboutus h4{
+    font-size: 36px;
+    color: #040404;
+    margin-bottom: 40px;
+
+}
+/* #aboutus{
+   font-size: 36px;
+   margin-bottom: 15;
+   color: #040404;
+
+} */
+#aboutus p{
+    font-size: 18px;
+    color: #262627;
+ }
+ #aboutus .row{
+    margin-top: 65px;
+ }
+ #aboutus .row p{
+    font-size: 14px;
+    color: #030303;
+ }
+ #aboutus h5{
+    font-size: 24px;
+    color: #030303;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ }
+ #aboutus .col-3:hover div span{
+    color: #87d37c;
+ }
+ #aboutus .col-3:hover div h5{
+    color: #87d37c;
+ }
+.row{
+    /* display: inline-block;
+    padding-top: 65px; */
+    overflow:hidden;
+    margin-right: -15px;
+    margin-right: -15px;
+    
+}
+.col-3{
+    width: 25%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
 }
