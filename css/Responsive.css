@@ -1,0 +1,124 @@
+@media screen  and (max-width:1200px) {
+    .container{
+       width: 960px;
+    }
+    header h1{
+        font-size: 30px;
+    }
+    header h2{
+        font-size: 100px;
+    }
+    header h3{
+        font-size: 26px;
+    }
+    #aboutus h5{
+        font-size: 20px;
+    }
+    .feedback-text p:first-child{
+        font-size: 60px;
+        font-weight: 700;
+    }
+    #services .col-3 .servicesicon{
+        width: 220px;
+        height: 196px;
+    }
+    #services .col-3 .servicesicon div{
+        margin: 75px auto;
+        width: 70%;
+    }
+    #services .col-3 img{
+        width: 220px;
+    }
+    .fa-4x{
+        font-size: 2em;
+    }
+    #porfolio .col-4 img{
+        width: 300px;
+    }
+    #porfolio .col-4 .write{
+        height: 276px;
+        width: 300px;
+    }
+    #porfolio h4 {
+        padding-top: 135px;
+    }
+}
+@media screen and (max-width:991px){
+    .container{
+       width: 720px;
+    }
+    #menu div{
+        width: 15%;
+    }
+    #menu nav{
+        width: 80%;
+    }
+    #menu nav ul li{
+        padding-right: 15px;
+    }
+    header a{
+        font-size: 15px;
+    }
+    #aboutus h5{
+        font-size: 22px;
+    }
+    #aboutus .col-3 , #ourpricing .col-3 , #services .col-3{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    #aboutus .col-3{
+        height: 250px;
+    }
+    .feedback-text p:first-child{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .feedback-text{
+        padding: 10px;
+    }
+    #services .col-3 img{
+        width: 320px;
+    }
+    #services .col-3 .servicesIcon{
+        height: 290px;
+        width: 320px;
+    }
+    #services .col-3 .servicesIcon div {
+        margin: 121px auto;
+        width: 49%;
+    }
+
+    #aboutus h5{
+        font-size: 22px;
+    }
+    #aboutus .col-3 , #ourpricing .col-3{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    #porfolio h4{
+        padding-top: 0;
+    }
+    #porfolio p{
+        font-size: 17px;
+    }
+    #porfolio nav ul li{
+        display: inline-block;
+        width: 25%;
+    }
+    #porfolio .col-4 img{
+        width: 300px;
+    }
+    #porfolio .col-4 .write{
+        height: 276px;
+        width: 300px;
+    }
+    #porfolio h4 {
+        padding-top: 135px;
+    }
+    #porfolio .col-4{
+        width: 50%;
+    }
+    #porfolio .row{
+        overflow: visible !important;
+    }
+}
