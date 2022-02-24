@@ -18,6 +18,14 @@
         font-size: 60px;
         font-weight: 700;
     }
+    #menu nav ul{
+        
+        padding-top: 85px;
+    }
+    #menu nav ul li{
+        padding-right: 15px !important;
+        
+    }
     #services .col-3 .servicesicon{
         width: 220px;
         height: 196px;
@@ -99,9 +107,7 @@
         width: 50%;
         margin-bottom: 15px;
     }
-    #porfolio h4{
-        padding-top: 0 !important;
-    }
+    
     #porfolio p{
         font-size: 17px;
     }
@@ -115,6 +121,7 @@
     #porfolio .col-4 .write{
         height: 276px;
         width: 300px;
+        left: 36px;
     }
     #porfolio h4 {
         padding-top: 135px;
@@ -124,5 +131,168 @@
     }
     #porfolio .row{
         overflow: visible !important;
+    }
+}
+@media screen and (max-width:767px){
+    .container{
+       width: 540px;
+    }
+    .header-content{
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    p{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #aboutus h4{
+        margin-bottom: 18px;
+    }
+    h4{
+        font-size: 28px;
+    }
+    header h2{
+        font-size: 24px;
+    }
+    header h3{
+        font-size: 32px;
+    }
+    #menu div{
+        width: 12%;
+    }
+    #menu nav{
+        width: 86%;
+    }
+    #menu nav ul{
+        padding-top: 30px;
+    }
+    #menu nav ul li{
+        padding-right: 10px;
+    }
+    header a{
+        font-size: 12px;
+    }
+    #aboutus{
+        padding-top: 42px;
+        padding-bottom: 60px;
+
+    }
+    #aboutus p{
+        text-align: center;
+    }
+    #aboutus .col-3{
+        width: 100%;
+    }
+    #aboutus h5{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+    #porfolio ul li {
+        margin: 10px;
+        padding: 7px;
+    }
+    #porfolio .col-4 img {
+        width: 252px;
+    }
+    #porfolio .col-4 .write {
+        left: 15px;
+        display: none;
+        height: 230px;
+        width: 250px;
+    }
+    #porfolio h4 {
+        padding-top: 104px;
+    }
+    #services {
+        padding-top: 42px;
+        padding-bottom: 34px;
+    }
+    #services h4{
+        margin-bottom: 18px;
+    }
+    #services .row{
+        margin-top: 42px;
+    }
+    #services .col-3{
+        width: 50%;
+    }
+    #services .col-3 img {
+        width: 260px;
+    }
+    #services .col-3 .servicesIcon {
+        height: 233px;
+        width: 260px;
+    }
+
+    #services .col-3 .servicesIcon div{
+        margin: 58px auto;
+        width: 18%;
+    }
+    #ourpricing{
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    #ourpricing h4{
+        margin-bottom: 20px;
+    }
+    #ourpricing .row{
+        margin-top: 40px;
+    }
+    #feedback{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .feedback-text{
+        padding: 5px;
+    }
+    .feedback-text p:first-child{
+        font-size: 24px;
+    }
+    .feedback-text p{
+        font-size: 12px;
+    }
+    #feedback .col-3 div p:first-child {
+        
+        font-size: 59px;
+    }
+    #contactus{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    #contactus h4{
+        margin-bottom: 20px;
+    }
+    #contactus .row{
+        margin-top: 50px;
+    }
+    #contactus .col-3{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #contactus div h4 {
+        padding-bottom: 10px;
+    }
+    #contactus .fa-4x {
+        font-size: 11em;
+    }
+    #contactform{
+        padding-top: 60px;
+    }
+    #contactform .col-6{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer{
+        text-align: center;
+    }
+    footer .col-8{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .col-4{
+        width: 100%;
     }
 }
