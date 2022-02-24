@@ -166,13 +166,14 @@
         width: 86%;
     }
     #menu nav ul{
-        padding-top: 30px;
+        padding-top: 60px;
+        padding-left: 140px;
     }
     #menu nav ul li{
-        padding-right: 10px;
+        padding-right: 8px !important;
     }
     header a{
-        font-size: 12px;
+        font-size: 15px !important;
     }
     #aboutus{
         padding-top: 42px;
@@ -189,6 +190,9 @@
         font-size: 18px;
         margin-top: 20px;
         margin-bottom: 12px;
+    }
+    #porfolio{
+        margin-top: -215px;
     }
     #porfolio ul li {
         margin: 10px;
