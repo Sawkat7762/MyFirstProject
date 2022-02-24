@@ -300,3 +300,79 @@
         width: 100%;
     }
 }
+@media screen and (max-width:575px){
+    .container{
+       width: 100%;
+    }
+    #menu div{
+        float: none;
+        margin-top: 0px;
+        margin: 0 auto;
+
+    }
+    #menu nav ul{
+        padding-top: 5px;
+
+    }
+    #menu a img{
+        margin-left: -154px;
+    }
+    header h1{
+        font-size: 20px;
+    }
+    header h2{
+        font-size: 18px;
+    }
+    header h3{
+        
+    }
+    #services .col-3 {
+        width: 100%;
+    }
+    #services .col-3 img {
+        width: 100%;
+    }
+    #services .col-3 .servicesIcon {
+        height: 412px;
+        width: 459px;
+    }
+    #services .col-3 .servicesIcon div {
+        margin: 148px auto;
+        width: 34%;
+    }
+    #porfolio .col-4 {
+        width: 100%;
+    }
+    #porfolio .col-4 img {
+        width: 100%;
+    }
+    #porfolio .col-4 .write {
+        height: 317px;
+        width: 348px;
+    }
+    #porfolio h4 {
+        padding-top: 158px;
+    }
+    #porfolio nav ul li {
+        width: 27%;
+    }
+    #ourpricing .col-3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #feedback{
+        width: 103%;
+    }
+    #feedback .row {
+            margin-right: 7px;
+            margin-left: 11px;
+     }
+     #feedback .col-3 div p:first-child {
+        font-size: 40px;
+    }
+    
+
+    /* #menu nav{
+        float: none;
+    } */
+}
