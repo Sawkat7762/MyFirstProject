@@ -305,26 +305,27 @@
        width: 100%;
     }
     #menu div{
-        float: none;
+        /* float: none; */
         margin-top: 0px;
         margin: 0 auto;
 
     }
     #menu nav ul{
-        padding-top: 5px;
+        padding-top: 37px;
+        padding-left: 155px;
 
     }
     #menu a img{
-        margin-left: -154px;
+        margin-left: 0px;
     }
     header h1{
-        font-size: 20px;
+        font-size: 16px;
     }
     header h2{
         font-size: 18px;
     }
     header h3{
-        
+        font-size: 24px;
     }
     #services .col-3 {
         width: 100%;
@@ -354,7 +355,7 @@
         padding-top: 158px;
     }
     #porfolio nav ul li {
-        width: 27%;
+        width: 42%;
     }
     #ourpricing .col-3 {
         width: 100%;
@@ -368,7 +369,10 @@
             margin-left: 11px;
      }
      #feedback .col-3 div p:first-child {
-        font-size: 40px;
+        font-size: 20px;
+    }
+    .feedback-text p {
+        font-size: 7px;
     }
     
 
